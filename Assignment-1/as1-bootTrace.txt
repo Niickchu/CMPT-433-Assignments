@@ -1,0 +1,42 @@
+nick@debianNick:~$ ssh debian@192.168.7.2
+Debian GNU/Linux 11
+
+BeagleBoard.org Debian Bullseye IoT Image 2022-09-02
+Support: https://bbb.io/debian
+default username:password is [debian:temppwd]
+
+debian@192.168.7.2's password: 
+
+
+
+
+░██╗░░░░░░░██╗███████╗██╗░░░░░░█████╗░░█████╗░███╗░░░███╗███████╗  ███╗░░██╗██╗░█████╗░██╗░░██╗
+░██║░░██╗░░██║██╔════╝██║░░░░░██╔══██╗██╔══██╗████╗░████║██╔════╝  ████╗░██║██║██╔══██╗██║░██╔╝
+░╚██╗████╗██╔╝█████╗░░██║░░░░░██║░░╚═╝██║░░██║██╔████╔██║█████╗░░  ██╔██╗██║██║██║░░╚═╝█████═╝░
+░░████╔═████║░██╔══╝░░██║░░░░░██║░░██╗██║░░██║██║╚██╔╝██║██╔══╝░░  ██║╚████║██║██║░░██╗██╔═██╗░
+░░╚██╔╝░╚██╔╝░███████╗███████╗╚█████╔╝╚█████╔╝██║░╚═╝░██║███████╗  ██║░╚███║██║╚█████╔╝██║░╚██╗
+░░░╚═╝░░░╚═╝░░╚══════╝╚══════╝░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝  ╚═╝░░╚══╝╚═╝░╚════╝░╚═╝░░╚═╝
+
+
+
+
+Last login: Fri Oct  7 04:15:07 2022 from 192.168.7.1
+Hello embedded world, from Nick
+
+When LED3 lights up, press the USER button!
+New Best Time!
+Your reaction time was 494ms; best so far in game is 494ms
+New Best Time!
+Your reaction time was 157ms; best so far in game is 157ms
+Your reaction time was 1410ms; best so far in game is 157ms
+Your reaction time was 660ms; best so far in game is 157ms
+Your reaction time was 5000ms; best so far in game is 157ms
+Your reaction time was 229ms; best so far in game is 157ms
+No input within 5000ms; quitting!
+debian@nmc10-beagle:~$ ./mountNFS.sh
+[sudo] password for debian: 
+debian@nmc10-beagle:~$ cd /mnt/remote/myApps
+debian@nmc10-beagle:/mnt/remote/myApps$ ls
+hello
+debian@nmc10-beagle:/mnt/remote/myApps$ 
+
