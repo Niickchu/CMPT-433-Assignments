@@ -6,7 +6,7 @@
 A simple reaction speed test implemented using onboard buttons and LEDs.
 
 **Assignment 2: Light Sampler** \
-An analysis program that continually samples the current light level in the room using a photo-resistor and output statistics every second to the terminal as well as an 8x8 LED matrix.
+An analysis program that continually samples the current light level in the room using a photo-resistor and outputs statistics every second to the terminal as well as an 8x8 LED matrix.
 
 **Assignment 3: Beatbox** \
 An audiomixer capable of playing multiple custom user created beats, as well as 3 custom soundbites in realtime at the touch of a button. Control over the volume and tempo of the beat is realized through a joystick.
