@@ -20,7 +20,7 @@ static pthread_mutex_t bpmMutex = PTHREAD_MUTEX_INITIALIZER;
 static void setBPM(int inputBPM);
 static void *playBeat();
 
-//HEX VALUE   SOUND    INT VALUE
+//BIT VALUE   SOUND    INT VALUE
 //0000 0000 nothing     = 0
 //0000 0001 high hat    = 1           // To add a sound to a specific eighth note in a beat add the 
 //0000 0010 snare       = 2           // value of the sound to the index of that eighth note
